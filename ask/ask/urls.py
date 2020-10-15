@@ -25,5 +25,5 @@ urlpatterns = [
     url(r'^popular/', include('qa.urls')),
     url(r'^new/', include('qa.urls')),
 
-    url(r'^/', include('qa.urls'))
+    url(r'^$', include('qa.urls'))
 ]
